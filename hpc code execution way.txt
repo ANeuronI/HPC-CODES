@@ -1,0 +1,25 @@
+for opnmpi -->
+
+mpicc a.c -o a
+
+mpirun -np 4 ./a
+
+
+
+for pthread -->
+
+gcc -pthread a.c -o a
+
+./a (for fibnoacci --> " ./a 4 ")
+
+
+for openmp -->
+
+gcc -fopenmp a.c -o a
+
+./a 
+
+
+---------------------------
+
+a is file name
