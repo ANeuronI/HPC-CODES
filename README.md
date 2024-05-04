@@ -11,5 +11,5 @@ pthread
 **************************************************************
 quick sort code require 2 arguments --> input and output
 
-mpirun -np 4 ./a input output
+mpirun -np 4 ./a input.txt output.txt
 ***************************************************************
